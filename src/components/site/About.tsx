@@ -26,11 +26,8 @@ export function About() {
           <h2 className="mt-5 text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
             Präzision, Pünktlichkeit und ein sauberes Ergebnis.
           </h2>
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-            Haliuk Möbelbau ist ein Montagebetrieb für anspruchsvolle Privat- und Geschäftskunden.
-            Wir montieren Möbel und Küchen, installieren Haushaltsgeräte und übernehmen Umzüge sowie
-            kleinere Reparaturen. Jeder Auftrag wird von erfahrenen Monteuren ausgeführt — mit
-            professionellem Werkzeug und einem klaren Anspruch an Qualität.
+          <p className="mt-6 max-w-xl whitespace-pre-line text-base leading-relaxed text-muted-foreground">
+            Haliuk Möbelbau ist ein familiengeführter Montagebetrieb mit Schwerpunkt auf Küchenmontage, Möbelaufbau und individuellen Lösungen im Innenbereich. Wir verbinden traditionelle Handwerkerfahrung mit modernem Arbeiten und bieten unseren Kunden zuverlässige Qualität aus einer Hand.{"\n\n"}Ob Küche, Möbel oder Haushaltsgeräte: Jeder Auftrag wird mit höchster Sorgfalt, Präzision und einem Blick fürs Detail ausgeführt. Unser Anspruch ist es, saubere Arbeit zu leisten und langfristiges Vertrauen bei unseren Kunden aufzubauen.
           </p>
 
           <dl className="mt-10 grid gap-x-10 gap-y-7 sm:grid-cols-2">
