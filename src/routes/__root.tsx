@@ -89,6 +89,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:locale", content: "de_DE" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Haliuk Möbelbau | Möbel- & Küchenmontage" },
+      { name: "twitter:title", content: "Haliuk Möbelbau | Möbel- & Küchenmontage" },
+      { property: "og:description", content: "Professionelle Möbelmontage, Küchenmontage, Umzugsservice und Reparaturen für Privat- und Geschäftskunden in Deutschland." },
+      { name: "twitter:description", content: "Professionelle Möbelmontage, Küchenmontage, Umzugsservice und Reparaturen für Privat- und Geschäftskunden in Deutschland." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b82e4c93-1c47-4008-99a6-5b50f4fe97d1/id-preview-8a8de2c6--f61b1ca7-7080-4d02-a4c4-b3a6e8ce7945.lovable.app-1785237986692.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b82e4c93-1c47-4008-99a6-5b50f4fe97d1/id-preview-8a8de2c6--f61b1ca7-7080-4d02-a4c4-b3a6e8ce7945.lovable.app-1785237986692.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -98,7 +104,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap",
       },
-      { rel: "icon", href: "/favicon.png", type: "image/png" },
     ],
   }),
 
