@@ -17,7 +17,7 @@ export function Hero() {
       />
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-[linear-gradient(to_top,color-mix(in_oklab,var(--royal)_92%,transparent)_0%,color-mix(in_oklab,var(--royal)_62%,transparent)_45%,color-mix(in_oklab,var(--royal)_28%,transparent)_100%)]"
+        className="absolute inset-0 -z-10 bg-[linear-gradient(to_top,color-mix(in_oklab,var(--royal)_100%,transparent)_0%,color-mix(in_oklab,var(--royal)_70%,transparent)_45%,color-mix(in_oklab,var(--royal)_36%,transparent)_100%)]"
       />
 
       <div className="shell w-full pb-20 pt-40 md:pb-28">
