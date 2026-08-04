@@ -12,9 +12,9 @@ const points = [
 ];
 
 const stats = [
-  ["1.200+", "Montagen"],
-  ["10 Jahre", "Erfahrung"],
-  ["4,9 / 5", "Kundenbewertung"],
+  ["20+ Jahre", "Erfahrung"],
+  ["24h", "Schnelle Rückmeldung"],
+  ["100%", "Einsatz für jedes Projekt"],
 ];
 
 export function About() {
