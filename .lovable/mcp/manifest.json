@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "sdk_version": "0.26.1",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "haliuk-mobelbau-brand-experience",
+      "version": "0.1.0",
+      "title": "Haliuk Möbelbau Brand Experience"
+    },
+    "tools": [
+      {
+        "name": "list_services",
+        "title": "Leistungen auflisten",
+        "description": "Listet alle Montage- und Serviceleistungen von Haliuk Möbelbau mit Beschreibung und Einzelpositionen.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "query": {
+              "description": "Optionaler Suchbegriff, z. B. 'Küche' oder 'Umzug'.",
+              "type": "string"
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_process",
+        "title": "Ablauf abrufen",
+        "description": "Beschreibt den vierstufigen Ablauf von der Anfrage bis zur fertigen Montage.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "search_faq",
+        "title": "FAQ durchsuchen",
+        "description": "Durchsucht die häufigen Fragen zu Preisen, Anfahrt, Dauer, Garantie, Einsatzgebiet und Zahlungsarten.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "query": {
+              "description": "Optionaler Suchbegriff, z. B. 'Garantie'.",
+              "type": "string"
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_contact_info",
+        "title": "Kontaktdaten abrufen",
+        "description": "Liefert Kontaktdaten, Öffnungszeiten und Einsatzgebiet von Haliuk Möbelbau (öffentliche Firmenangaben).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}
