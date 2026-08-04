@@ -1,6 +1,6 @@
 import { ArrowRight, Check, Phone } from "lucide-react";
 
-import heroImage from "@/assets/hero-kitchen.jpg";
+import heroAsset from "@/assets/hero-kitchen-photo.jpg.asset.json";
 
 const badges = ["Zuverlässig", "Präzise", "Saubere Arbeit", "Privat & Gewerbe"];
 
@@ -8,10 +8,10 @@ export function Hero() {
   return (
     <section id="top" className="relative isolate flex min-h-[92vh] items-end overflow-hidden">
       <img
-        src={heroImage}
-        alt="Monteure bei der Montage einer modernen Luxusküche"
+        src={heroAsset.url}
+        alt="Moderne weiße Einbauküche mit Kücheninsel und Einbaugeräten"
         width={1920}
-        height={1280}
+        height={1271}
         fetchPriority="high"
         className="absolute inset-0 -z-20 size-full object-cover"
       />
