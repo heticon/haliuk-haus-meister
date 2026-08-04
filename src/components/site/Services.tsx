@@ -19,19 +19,19 @@ const services = [
     icon: WashingMachine,
     title: "Haushaltsgeräte",
     text: "Installation und sichere Befestigung Ihrer Geräte.",
-    items: ["Backofen", "Geschirrspüler", "Waschmaschine", "Trockner", "Kühlschrank", "Dunstabzugshaube"],
+    items: ["Backofen", "Waschmaschine", "Trockner", "Kühlschrank", "Dunstabzugshaube"],
   },
   {
     icon: Truck,
     title: "Umzugsservice",
-    text: "Kompletter Umzug inklusive Möbelhandling — sorgfältig und geschützt.",
+    text: "Kompletter Umzug inklusive Möbeltransport — sorgfältig und geschützt.",
     items: ["Transport", "Abbau", "Verpackung", "Aufbau am neuen Standort"],
   },
   {
     icon: Hammer,
     title: "Kleine Reparaturen",
     text: "Schnelle Hilfe bei allen kleineren Montagearbeiten.",
-    items: ["Regale", "Spiegel", "Gardinenstangen", "TV-Halterungen", "Kleine Montagearbeiten"],
+    items: ["Lampen", "Spiegel", "Gardinenstangen", "TV-Halterungen", "Kleine Montagearbeiten"],
   },
 ];
 
