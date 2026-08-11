@@ -24,7 +24,7 @@ export function Contact() {
       String(data.get("message") ?? ""),
     ].join("\n");
 
-    window.location.href = `mailto:info@haliuk-moebelbau.de?subject=${encodeURIComponent(
+    window.location.href = `mailto:info@haliukmoebelbau.de?subject=${encodeURIComponent(
       "Anfrage über die Website",
     )}&body=${encodeURIComponent(body)}`;
     setSent(true);
@@ -100,10 +100,10 @@ export function Contact() {
           <Reveal delay={120} className="flex flex-col gap-6">
             <div className="rounded-3xl border border-border bg-card p-8 shadow-soft">
               <ul className="grid gap-5">
-                <ContactRow icon={Phone} label="Telefon" value="+49 152 1234 5678" href="tel:+4915212345678" />
-                <ContactRow icon={MessageCircle} label="WhatsApp" value="Direkt schreiben" href="https://wa.me/4915212345678" />
-                <ContactRow icon={Mail} label="E-Mail" value="info@haliuk-moebelbau.de" href="mailto:info@haliuk-moebelbau.de" />
-                <ContactRow icon={MapPin} label="Adresse" value="Musterstraße 12, 10115 Berlin" />
+                <ContactRow icon={Phone} label="Telefon" value="+49 1516 1584948" href="tel:+4915161584948" />
+                <ContactRow icon={MessageCircle} label="WhatsApp" value="Direkt schreiben" href="https://wa.me/4915161584948" />
+                <ContactRow icon={Mail} label="E-Mail" value="info@haliukmoebelbau.de" href="mailto:info@haliukmoebelbau.de" />
+                <ContactRow icon={MapPin} label="Adresse" value="Im Neugrabener Dorf 57, 21147 Hamburg" />
               </ul>
 
               <div className="mt-8 border-t border-border pt-6">
@@ -125,7 +125,7 @@ export function Contact() {
             <div className="overflow-hidden rounded-3xl border border-border shadow-soft">
               <iframe
                 title="Standort von Haliuk Möbelbau auf Google Maps"
-                src="https://www.google.com/maps?q=Musterstra%C3%9Fe%2012,%2010115%20Berlin&output=embed"
+                src="https://www.google.com/maps?q=Im%20Neugrabener%20Dorf%2057,%2021147%20Hamburg&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="h-72 w-full border-0 grayscale-[35%]"
