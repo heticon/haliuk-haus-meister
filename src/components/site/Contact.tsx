@@ -4,9 +4,7 @@ import { Clock, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const hours = [
-  ["Montag – Freitag", "07:00 – 19:00"],
-  ["Samstag", "09:00 – 16:00"],
-  ["Sonntag", "Nach Vereinbarung"],
+  ["Montag – Samstag", "08:00 – 18:00"],
 ];
 
 export function Contact() {
