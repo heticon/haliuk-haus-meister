@@ -22,7 +22,7 @@ export function Hero() {
 
       <div className="shell w-full pb-20 pt-40 md:pb-28">
         <div className="max-w-3xl">
-          <p className="eyebrow text-royal-foreground/70">Möbelmontage in ganz Deutschland</p>
+          <p className="eyebrow text-royal-foreground/70">MÖBELMONTAGE IN HAMBURG</p>
           <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] text-royal-foreground sm:text-5xl lg:text-[4.25rem]">
             Hochwertige Möbel- &amp; Küchenmontage mit höchster Präzision.
           </h1>
