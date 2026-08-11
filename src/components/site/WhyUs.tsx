@@ -14,7 +14,7 @@ import { Reveal } from "./Reveal";
 const reasons = [
   { icon: Ruler, title: "Präzise Arbeit", text: "Millimetergenaue Montage nach Herstellervorgabe." },
   { icon: CalendarCheck, title: "Termintreu", text: "Verbindliche Zeitfenster, pünktliche Ankunft." },
-  { icon: BadgeEuro, title: "Faire Preise", text: "Transparente Festpreise ohne versteckte Kosten." },
+  { icon: BadgeEuro, title: "Faire Preise", text: "Transparente und nachvollziehbare Angebote." },
   { icon: Sparkles, title: "Sauberes Arbeiten", text: "Geschützte Flächen, besenreine Übergabe." },
   { icon: Wrench, title: "Professionelles Werkzeug", text: "Markenwerkzeug und Messtechnik im Einsatz." },
   { icon: Users, title: "Erfahrene Monteure", text: "Geschultes Team mit jahrelanger Praxis." },

@@ -26,10 +26,10 @@ export function SiteFooter() {
         <div>
           <div className="flex items-center gap-3">
             <img src={logo.url} alt="Haliuk Möbelbau Logo" width={40} height={40} loading="lazy" className="h-10 w-10 object-contain" />
-            <span className="font-display text-sm font-extrabold text-royal">Haliuk Möbelbau</span>
+            <span className="font-display text-sm font-extrabold text-royal">Roman Haliuk Möbelbau</span>
           </div>
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-muted-foreground">
-            Möbel- und Küchenmontage, Geräteinstallation, Umzüge und Reparaturen — deutschlandweit.
+            Möbel- und Küchenmontage, Geräteinstallation, Umzüge und Reparaturen.
           </p>
           <div className="mt-6 flex gap-3">
             {[Instagram, Facebook, Linkedin].map((Icon, i) => (
@@ -70,18 +70,18 @@ export function SiteFooter() {
         <div>
           <h2 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Kontakt</h2>
           <address className="mt-5 grid gap-3 text-sm not-italic text-foreground/80">
-            <a href="tel:+4915212345678" className="transition-colors hover:text-primary">+49 152 1234 5678</a>
-            <a href="mailto:info@haliuk-moebelbau.de" className="transition-colors hover:text-primary">
-              info@haliuk-moebelbau.de
+            <a href="tel:+4915161584948" className="transition-colors hover:text-primary">+49 1516 1584948</a>
+            <a href="mailto:info@haliukmoebelbau.de" className="transition-colors hover:text-primary">
+              info@haliukmoebelbau.de
             </a>
-            <span className="text-muted-foreground">Musterstraße 12<br />10115 Berlin</span>
+            <span className="text-muted-foreground">Roman Haliuk Möbelbau<br />Im Neugrabener Dorf 57<br />21147 Hamburg</span>
           </address>
         </div>
       </div>
 
       <div className="border-t border-border">
         <div className="shell flex flex-col gap-4 py-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Haliuk Möbelbau. Alle Rechte vorbehalten.</p>
+          <p>© {new Date().getFullYear()}{"\u00a0"}Roman Haliuk Möbelbau. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6">
             <a href="#kontakt" className="transition-colors hover:text-primary">Datenschutz</a>
             <a href="#kontakt" className="transition-colors hover:text-primary">Impressum</a>

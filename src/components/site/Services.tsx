@@ -12,7 +12,7 @@ const services = [
   {
     icon: ChefHat,
     title: "Küchenmontage",
-    text: "Professionelle Küchenmontage von der Planung bis zur Feinjustierung.",
+    text: "Fachgerechte Montage und präzise Ausrichtung Ihrer Küche.",
     items: ["Einbau", "Ausrichtung", "Feinmontage", "Arbeitsplatten"],
   },
   {
