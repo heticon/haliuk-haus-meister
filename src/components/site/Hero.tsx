@@ -1,6 +1,6 @@
 import { ArrowRight, Check, Phone, Star } from "lucide-react";
 
-import heroAsset from "@/assets/hero-kitchen-photo.jpg.asset.json";
+import heroAsset from "@/assets/hero-kitchen-photo.jpg";
 
 const badges = ["Zuverlässig", "Präzise", "Saubere Arbeit", "Privat & Gewerbe"];
 
@@ -8,7 +8,7 @@ function MobileHero() {
   return (
     <section className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden lg:hidden">
       <img
-        src={heroAsset.url}
+        src={heroAsset}
         alt="Moderne weiße Einbauküche mit Kücheninsel und Einbaugeräten"
         width={1920}
         height={1271}
@@ -115,7 +115,7 @@ export function Hero() {
             <div className="relative">
               <div className="overflow-hidden rounded-3xl shadow-lift">
                 <img
-                  src={heroAsset.url}
+                  src={heroAsset}
                   alt="Moderne weiße Einbauküche mit Kücheninsel und Einbaugeräten"
                   width={1920}
                   height={1271}

@@ -1,6 +1,6 @@
 import { Instagram, Facebook, Linkedin } from "lucide-react";
 
-import logo from "@/assets/haliuk-logo.png.asset.json";
+import logo from "@/assets/haliuk-logo.png";
 
 const nav = [
   { href: "#leistungen", label: "Leistungen" },
@@ -25,7 +25,7 @@ export function SiteFooter() {
       <div className="shell grid gap-12 py-16 md:grid-cols-4 md:py-20">
         <div>
           <div className="flex items-center gap-3">
-            <img src={logo.url} alt="Haliuk Möbelbau Logo" width={40} height={40} loading="lazy" className="h-10 w-10 object-contain" />
+            <img src={logo} alt="Haliuk Möbelbau Logo" width={40} height={40} loading="lazy" className="h-10 w-10 object-contain" />
             <span className="font-display text-sm font-extrabold text-royal">Roman Haliuk Möbelbau</span>
           </div>
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-muted-foreground">
