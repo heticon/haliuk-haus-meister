@@ -32,12 +32,12 @@ export function SiteHeader() {
           : "border-b border-transparent bg-transparent",
       )}
     >
-      <div className="shell flex h-20 items-center justify-between gap-6 text-foreground">
+      <div className={cn("shell flex h-20 items-center justify-between gap-6", scrolled ? "text-foreground" : "text-white lg:text-foreground")}>
 
         <a href="#top" className="flex items-center gap-3" aria-label="Haliuk Möbelbau Startseite">
           <img src={logo.url} alt="Haliuk Möbelbau Logo" width={44} height={44} className="h-11 w-11 object-contain" />
-          <span className="brand-main font-display text-base font-extrabold tracking-tight text-royal">
-            Haliuk <span className="brand-sub font-medium text-muted-foreground">Möbelbau</span>
+          <span className={cn("brand-main font-display text-base font-extrabold tracking-tight", scrolled ? "text-royal" : "text-current lg:text-royal")}>
+            Haliuk <span className={cn("brand-sub font-medium", scrolled ? "text-muted-foreground" : "text-current/70 lg:text-muted-foreground")}>Möbelbau</span>
           </span>
         </a>
 
