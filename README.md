@@ -1,14 +1,18 @@
-# Welcome to your Lovable project
+# Haliuk Möbelbau Brand Experience
+
+Create a premium, world-class website for a German furniture assembly company called **Haliuk Möbelbau**. The company specializes in high-quality furniture assembly, kitchen installation, household mounting services, small repairs, and moving services for both private and business customers throughout Germany. The website should immediately communicate precision, craftsmanship, trust, reliability, and premium quality. # Brand Identity The logo is a clean geometric minimalist monogram in deep royal blue. Extend the logo into a complete premium visual identity. Use a slightly lighter blue than the logo as the primary UI color. Color palette: • Royal Blue • Light Premium Blue • White • Light Gray • Charcoal The design should feel expensive, elegant, modern, and timeless. Avoid bright colors, gradients that feel cheap, oversized shadows, unnecessary decorations, or template-looking layouts. # Inspiration Combine the visual quality of: • Apple • Porsche • Vitra • IKEA corporate • Scandinavian architecture studios • Premium interior design agencies The overall feeling should be: Luxury Minimalism Precision Craftsmanship German engineering Premium service Trust Modern elegance # Typography Large modern sans-serif font. Strong headlines. Generous whitespace. Perfect alignment. Balanced spacing. Beautiful typography hierarchy. # Layout Sticky transparent navigation. Smooth scrolling. Premium hover effects. Subtle micro animations. Fade-in sections. Rounded cards. Soft shadows. Modern icons. Responsive on desktop, tablet, and mobile. Fast loading. SEO optimized. Accessible. Semantic HTML. # Hero Section Large full-width hero image showing professionals assembling a modern luxury kitchen. Headline: "Hochwertige Möbel- & Küchenmontage mit höchster Präzision." Subheadline: "Professionelle Möbelmontage, Küchenmontage, Umzugsservice und kleinere Reparaturarbeiten für Privat- und Geschäftskunden." Primary button: Kostenloses Angebot anfordern Secondary button: Jetzt anrufen Trust badges underneath: ✓ Zuverlässig ✓ Präzise ✓ Saubere Arbeit ✓ Privat & Gewerbe # About Introduce Haliuk Möbelbau as a professional company focused on quality, precision, punctuality, and customer satisfaction. Highlight: • Professional craftsmanship • Careful installation • Respect for customers' homes • Reliable appointments • Efficient work • Clean results # Services Display elegant service cards with icons. Services: ## Möbelmontage Montage aller Arten von Möbeln: Schränke Kommoden Regale Betten Tische Büromöbel --- ## Küchenmontage Professionelle Küchenmontage Einbau Ausrichtung Feinmontage Arbeitsplatten --- ## Haushaltsgeräte Installation und Befestigung von: Backofen Geschirrspüler Waschmaschine Trockner Kühlschrank Dunstabzugshaube --- ## Umzugsservice Transport Abbau Verpackung Aufbau am neuen Standort --- ## Kleine Reparaturen Regale Spiegel Gardinenstangen TV-Halterungen Kleine Montagearbeiten # Why Choose Us Premium icon section. Reasons: Präzise Arbeit Termintreu Faire Preise Sauberes Arbeiten Professionelles Werkzeug Erfahrene Monteure Freundlicher Service Hohe Kundenzufriedenheit # Process Beautiful horizontal timeline. 1 Kontakt aufnehmen ↓ 2 Kostenloses Angebot erhalten ↓ 3 Termin vereinbaren ↓ 4 Professionelle Montage # Portfolio Modern masonry gallery. Luxury interiors. Modern kitchens. Wardrobes. Living rooms. Office furniture. Before / After images. # Testimonials Elegant testimonial slider. Google-style reviews. 5-star rating section. # FAQ Common customer questions. Pricing. Travel costs. Assembly duration. Guarantee. Areas served. Payment methods. # Contact Large premium CTA section. Headline: "Lassen Sie Ihre Möbel professionell montieren." Include: Phone Email WhatsApp Contact Form Google Maps Business hours # Footer Minimal elegant footer. Navigation Services Contact Privacy Policy Imprint Social media Copyright # UX Details Create a premium experience. Use subtle animations only. Excellent spacing. Soft transitions. No clutter. No unnecessary elements. Every section should breathe. The user should feel confidence immediately. # Copywriting Style Professional. Confident. Friendly. German. Short, clean sentences. No marketing clichés. Focus on trust, quality, and craftsmanship. # Final Goal The website should look like a company that charges premium prices because customers believe they will receive premium quality. Visitors should think within the first five seconds: "This company is professional, trustworthy, experienced, and worth paying more for."
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://haliuk-haus-meister.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/f61b1ca7-7080-4d02-a4c4-b3a6e8ce7945).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +24,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
