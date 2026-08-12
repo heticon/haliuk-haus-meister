@@ -6,7 +6,7 @@ const badges = ["Zuverlässig", "Präzise", "Saubere Arbeit", "Privat & Gewerbe"
 
 function MobileHero() {
   return (
-    <section id="top" className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden lg:hidden">
+    <section className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden lg:hidden">
       <img
         src={heroAsset.url}
         alt="Moderne weiße Einbauküche mit Kücheninsel und Einbaugeräten"
@@ -61,10 +61,9 @@ function MobileHero() {
 
 export function Hero() {
   return (
-    <>
+    <div id="top">
       <MobileHero />
       <section
-        id="top"
         className="relative hidden overflow-hidden bg-background pb-20 pt-32 md:pb-28 md:pt-40 lg:block"
       >
         <div className="shell">
@@ -148,6 +147,6 @@ export function Hero() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
