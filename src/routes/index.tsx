@@ -57,11 +57,11 @@ function Index() {
       <SiteHeader />
       <main>
         <Hero />
-        <About />
         <Services />
         <WhyUs />
         <Process />
         <Portfolio />
+        <About />
         <Testimonials />
         <Faq />
         <Contact />

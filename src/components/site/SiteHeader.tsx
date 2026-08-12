@@ -6,10 +6,11 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "#leistungen", label: "Leistungen" },
-  { href: "#ueber-uns", label: "Über uns" },
   { href: "#ablauf", label: "Ablauf" },
   { href: "#referenzen", label: "Referenzen" },
+  { href: "#ueber-uns", label: "Über uns" },
   { href: "#faq", label: "FAQ" },
+  { href: "#kontakt", label: "Kontakt" },
 ];
 
 export function SiteHeader() {
