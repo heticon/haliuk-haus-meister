@@ -10,27 +10,27 @@ import { Reveal } from "./Reveal";
 const faqs = [
   {
     q: "Was kostet eine Möbelmontage?",
-    a: "Die Kosten richten sich nach Umfang und Aufwand. Standardmontagen beginnen bei 49 € pro Stunde, größere Projekte rechnen wir zum Festpreis ab. Sie erhalten das Angebot vor Auftragsbeginn schriftlich.",
+    a: "Die Kosten richten sich nach Umfang und Aufwand. Standardmontagen beginnen bei 39 € pro Stunde, größere Projekte rechnen wir zum Festpreis ab. Sie erhalten das Angebot vor Auftragsbeginn schriftlich.",
   },
   {
     q: "Fallen Anfahrtskosten an?",
-    a: "Im Umkreis von 30 km ist die Anfahrt kostenfrei. Darüber hinaus berechnen wir eine transparente Pauschale, die im Angebot ausgewiesen ist.",
+    a: "Die Anfahrtskosten hängen vom Einsatzort und Umfang des Auftrags ab. Die Kosten werden vor Auftragsbeginn transparent mitgeteilt.",
   },
   {
     q: "Wie lange dauert eine Montage?",
-    a: "Einzelne Möbelstücke montieren wir meist in 30 bis 90 Minuten. Eine komplette Küche benötigt je nach Größe einen bis zwei Arbeitstage.",
+    a: "Die Dauer hängt von der Art, Anzahl und Größe der Möbel sowie vom Montageaufwand ab. Bei größeren Projekten besprechen wir den voraussichtlichen Zeitaufwand vorab.",
   },
   {
     q: "Gibt es eine Garantie auf die Montage?",
-    a: "Ja. Auf unsere Montageleistung geben wir 24 Monate Gewährleistung. Wir sind zusätzlich haftpflichtversichert.",
+    a: "Wir führen unsere Montagearbeiten sorgfältig und fachgerecht aus. Sollte nach der Montage etwas nicht stimmen, sprechen Sie uns direkt an, damit wir die Situation prüfen und eine passende Lösung finden.",
   },
   {
     q: "In welchen Gebieten arbeiten Sie?",
-    a: "Wir sind deutschlandweit im Einsatz, mit Schwerpunkt auf den Ballungsräumen. Für überregionale Projekte erstellen wir ein individuelles Angebot.",
+    a: "Unser Schwerpunkt liegt in Hamburg und Umgebung. Für größere oder überregionale Projekte können Sie uns gerne direkt kontaktieren. Wir prüfen individuell, ob ein Einsatz möglich ist.",
   },
   {
     q: "Welche Zahlungsmethoden akzeptieren Sie?",
-    a: "Barzahlung, EC-Karte und Überweisung auf Rechnung. Geschäftskunden rechnen wir auf Wunsch monatlich ab.",
+    a: "Die Zahlung ist je nach Auftrag per Überweisung oder nach individueller Vereinbarung möglich. Die Zahlungsbedingungen werden vor Auftragsbeginn transparent besprochen.",
   },
 ];
 

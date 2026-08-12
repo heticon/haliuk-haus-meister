@@ -24,7 +24,7 @@ const services = [
   {
     icon: Truck,
     title: "Umzugsservice",
-    text: "Kompletter Umzug inklusive Möbeltransport — sorgfältig und geschützt.",
+    text: "Unterstützung bei Umzügen – inklusive Abbau, Transport und Aufbau.",
     items: ["Transport", "Abbau", "Verpackung", "Aufbau am neuen Standort"],
   },
   {

@@ -8,11 +8,11 @@ import wardrobe from "@/assets/portfolio-wardrobe.jpg";
 import { Reveal } from "./Reveal";
 
 const items = [
-  { src: wardrobe, alt: "Montierter Einbaukleiderschrank in Eiche und Grau", label: "Ankleide", w: 1024, h: 1280 },
-  { src: living, alt: "Wohnzimmer mit montierter Medienwand und Regalen", label: "Wohnbereich", w: 1280, h: 960 },
+  { src: wardrobe, alt: "Montierter Einbaukleiderschrank in Eiche und Grau", label: "Küche", w: 1024, h: 1280 },
+  { src: living, alt: "Wohnzimmer mit montierter Medienwand und Regalen", label: "Feinmontage", w: 1280, h: 960 },
   { src: kitchen, alt: "Fertig montierte Küche mit Kochinsel", label: "Küche", w: 1280, h: 960 },
-  { src: detail, alt: "Ausrichtung einer Küchenfront mit Wasserwaage", label: "Feinmontage", w: 1024, h: 1280 },
-  { src: office, alt: "Montierte Büromöbel in einem modernen Großraumbüro", label: "Büro", w: 1280, h: 960 },
+  { src: detail, alt: "Ausrichtung einer Küchenfront mit Wasserwaage", label: "Küche", w: 1024, h: 1280 },
+  { src: office, alt: "Montierte Büromöbel in einem modernen Großraumbüro", label: "Wohnbereich", w: 1280, h: 960 },
   { src: umzug, alt: "Sorgfältig verpacktes Sofa beim Umzug", label: "Umzug", w: 1024, h: 1280 },
 ];
 

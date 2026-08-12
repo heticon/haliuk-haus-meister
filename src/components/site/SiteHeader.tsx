@@ -60,7 +60,7 @@ export function SiteHeader() {
             className="inline-flex items-center gap-2 text-sm font-medium text-current/85 transition-colors hover:text-primary"
           >
             <Phone className="size-4" aria-hidden />
-            +49 1516 1584948
+            +49 151 61584948
           </a>
           <a
             href="#kontakt"

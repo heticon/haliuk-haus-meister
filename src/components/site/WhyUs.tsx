@@ -19,7 +19,7 @@ const reasons = [
   { icon: Wrench, title: "Professionelles Werkzeug", text: "Markenwerkzeug und Messtechnik im Einsatz." },
   { icon: Users, title: "Erfahrene Monteure", text: "Geschultes Team mit jahrelanger Praxis." },
   { icon: Smile, title: "Freundlicher Service", text: "Klare Kommunikation, ruhige Arbeitsweise." },
-  { icon: Heart, title: "Hohe Kundenzufriedenheit", text: "4,9 von 5 Sternen aus über 300 Bewertungen." },
+  { icon: Heart, title: "Hohe Kundenzufriedenheit", text: "Professionelle Arbeit, auf die unsere Kunden zählen können." },
 ];
 
 export function WhyUs() {

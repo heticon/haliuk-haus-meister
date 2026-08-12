@@ -1,4 +1,4 @@
-import { ArrowRight, Check, Phone, Star } from "lucide-react";
+import { ArrowRight, Check, Phone, ShieldCheck } from "lucide-react";
 
 import heroAsset from "@/assets/hero-kitchen-photo.jpg";
 
@@ -123,24 +123,17 @@ export function Hero() {
                 />
               </div>
 
-              <div className="absolute -bottom-8 left-4 hidden items-center gap-3 rounded-2xl bg-card px-5 py-4 shadow-lift sm:flex lg:-left-10">
-                <div className="flex -space-x-2">
-                  {["JS", "MK", "TW"].map((initials) => (
-                    <span
-                      key={initials}
-                      className="inline-flex size-9 items-center justify-center rounded-full border-2 border-card bg-royal text-[0.65rem] font-semibold text-royal-foreground"
-                    >
-                      {initials}
-                    </span>
-                  ))}
+              <div className="absolute -bottom-8 left-4 hidden items-center gap-3.5 rounded-2xl bg-card px-6 py-4 shadow-lift sm:flex lg:-left-10">
+                <div className="flex size-10 items-center justify-center rounded-full bg-secondary text-royal">
+                  <ShieldCheck className="size-5 text-royal" />
                 </div>
                 <div>
-                  <div className="flex gap-0.5" aria-hidden>
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star key={i} className="size-3.5 fill-royal text-royal" />
-                    ))}
-                  </div>
-                  <p className="mt-1 text-xs font-medium text-muted-foreground">4,9 / 5 · über 300 Bewertungen</p>
+                  <p className="text-sm font-bold text-royal">
+                    Höchste Qualität
+                  </p>
+                  <p className="text-xs font-medium text-muted-foreground">
+                    bei jedem Auftrag
+                  </p>
                 </div>
               </div>
             </div>

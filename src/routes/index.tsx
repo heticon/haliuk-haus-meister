@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import { About } from "@/components/site/About";
 import { Contact } from "@/components/site/Contact";
 import { Faq } from "@/components/site/Faq";
 import { Hero } from "@/components/site/Hero";
@@ -9,7 +8,6 @@ import { Process } from "@/components/site/Process";
 import { Services } from "@/components/site/Services";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
-import { Testimonials } from "@/components/site/Testimonials";
 import { WhyUs } from "@/components/site/WhyUs";
 
 const title = "Haliuk Möbelbau | Möbelmontage & Küchenmontage in Deutschland";
@@ -21,18 +19,17 @@ const jsonLd = {
   "@type": "LocalBusiness",
   name: "Haliuk Möbelbau",
   description,
-  telephone: "+49 152 1234 5678",
-  email: "info@haliuk-moebelbau.de",
+  telephone: "+49 151 61584948",
+  email: "info@haliukmoebelbau.de",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Musterstraße 12",
-    postalCode: "10115",
-    addressLocality: "Berlin",
+    streetAddress: "Im Neugrabener Dorf 57",
+    postalCode: "21147",
+    addressLocality: "Hamburg",
     addressCountry: "DE",
   },
   areaServed: "DE",
-  aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "300" },
-  openingHours: ["Mo-Fr 07:00-19:00", "Sa 09:00-16:00"],
+  openingHours: ["Mo-Fr 08:00-19:00", "Sa 08:00-18:00"],
 };
 
 export const Route = createFileRoute("/")({
@@ -61,8 +58,6 @@ function Index() {
         <WhyUs />
         <Process />
         <Portfolio />
-        <About />
-        <Testimonials />
         <Faq />
         <Contact />
       </main>
