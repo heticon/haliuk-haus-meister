@@ -1,5 +1,8 @@
+import kitchenTall from "@/assets/1.jpg";
+import kitchenGas from "@/assets/2.jpg";
+import bathVanity from "@/assets/3.jpg";
+import wardrobeShelves from "@/assets/4.jpg";
 import detail from "@/assets/portfolio-detail.jpg";
-import kitchen from "@/assets/portfolio-kitchen.jpg";
 import living from "@/assets/portfolio-living.jpg";
 import office from "@/assets/portfolio-office.jpg";
 import umzug from "@/assets/portfolio-umzug.jpg";
@@ -8,12 +11,31 @@ import wardrobe from "@/assets/portfolio-wardrobe.jpg";
 import { Reveal } from "./Reveal";
 
 const items = [
-  { src: wardrobe, alt: "Montierter Einbaukleiderschrank in Eiche und Grau", label: "Küche", w: 1024, h: 1280 },
-  { src: living, alt: "Wohnzimmer mit montierter Medienwand und Regalen", label: "Feinmontage", w: 1280, h: 960 },
-  { src: kitchen, alt: "Fertig montierte Küche mit Kochinsel", label: "Küche", w: 1280, h: 960 },
-  { src: detail, alt: "Ausrichtung einer Küchenfront mit Wasserwaage", label: "Küche", w: 1024, h: 1280 },
-  { src: office, alt: "Montierte Büromöbel in einem modernen Großraumbüro", label: "Wohnbereich", w: 1280, h: 960 },
-  { src: umzug, alt: "Sorgfältig verpacktes Sofa beim Umzug", label: "Umzug", w: 1024, h: 1280 },
+  { src: wardrobe, alt: "Montierter Einbaukleiderschrank in Eiche und Grau", label: "Küche" },
+  { src: living, alt: "Wohnzimmer mit montierter Medienwand und Regalen", label: "Feinmontage" },
+  { src: detail, alt: "Ausrichtung einer Küchenfront mit Wasserwaage", label: "Küche" },
+  { src: office, alt: "Montierte Büromöbel in einem modernen Großraumbüro", label: "Wohnbereich" },
+  { src: umzug, alt: "Sorgfältig verpacktes Sofa beim Umzug", label: "Umzug" },
+  {
+    src: kitchenTall,
+    alt: "Montierte Küchenzeile mit Hochschränken und Einbaugeräten",
+    label: "Küche",
+  },
+  {
+    src: kitchenGas,
+    alt: "Fertig montierte Küche mit Gaskochfeld und Holzfronten",
+    label: "Küche",
+  },
+  {
+    src: bathVanity,
+    alt: "Montierter Badezimmer-Waschtisch mit beleuchtetem Spiegel",
+    label: "Bad",
+  },
+  {
+    src: wardrobeShelves,
+    alt: "Montierter Einbaukleiderschrank mit offenen Regalfächern",
+    label: "Feinmontage",
+  },
 ];
 
 export function Portfolio() {
@@ -30,17 +52,17 @@ export function Portfolio() {
           </p>
         </Reveal>
 
-        <div className="mt-16 columns-1 gap-6 sm:columns-2 lg:columns-3 [&>*]:mb-6">
+        <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item, index) => (
-            <Reveal key={item.label} delay={(index % 3) * 90} className="break-inside-avoid">
+            <Reveal key={item.src} delay={(index % 3) * 90}>
               <figure className="group relative overflow-hidden rounded-3xl shadow-soft">
                 <img
                   src={item.src}
                   alt={item.alt}
-                  width={item.w}
-                  height={item.h}
+                  width={1200}
+                  height={900}
                   loading="lazy"
-                  className="w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
+                  className="aspect-[4/3] w-full object-cover object-center transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
                 />
                 <div
                   aria-hidden
